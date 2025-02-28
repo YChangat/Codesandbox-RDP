@@ -17,7 +17,7 @@ services:
       DISK_SIZE: '990G'
       DISK2_SIZE: '101G'
     volumes:
-      -  /project/workspace/dockercom:/oem  
+      -  /project/workspace/.devcontainer/dockercom:/oem  
     devices:
       - /dev/kvm
       - /dev/net/tun
